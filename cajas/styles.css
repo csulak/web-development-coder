@@ -1,0 +1,51 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.contenedorCajas {
+    display: flex;
+    flex-wrap: nowrap;
+    background-color: black;
+    opacity: 0.5;
+    width: 80%;
+    margin: 0 auto;
+}
+
+.caja {
+    width: 250px;
+    height: 250px;
+
+    transition: 0.5s;
+}
+
+.caja:hover {
+    width: 45%;
+    }
+
+
+
+
+.caja1 {
+    background-color: rgba(228, 122, 76, 0.407);
+}
+
+.caja2 {
+    background-color: rgb(85, 97, 108);
+}
+
+
+.caja3 {
+    background-color: rgb(83, 146, 201);
+}
+
+
+.caja4 {
+    background-color: rgb(103, 181, 125);
+}
+
+
+.caja5 {
+    background-color: rgb(178, 170, 64);
+}

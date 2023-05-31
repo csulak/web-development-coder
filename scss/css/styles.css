@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.desktop, .mobile {
+    width: 500px;
+    height: 500px;
+    border: 1px solid black;
+    display: flex;
+    margin: auto;
+    justify-content: center;
+
+} 
+
+.desktop {
+    display: flex;
+    background-color: pink;
+}
+
+
+.mobile {
+    display: none;
+    background-color: green;
+}
+
+
+@media screen and (max-width: 768px) {
+    .desktop {
+        display: none;
+    }
+
+
+    .mobile {
+        display: flex;
+    }
+}

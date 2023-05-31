@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;400;500&family=Open+Sans:wght@300;400;600&family=Roboto:wght@100;300;900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    font-size: 62.5%;
+}
+
+
+.grid{
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 75% auto; /*Es decir va a tener 2 columnas*/
+    grid-template-rows: 20% auto 25%; /*Es decir va a tener 3 filas*/
+    grid-template-areas: "headerPapa headerPapa"
+                         "mainPapa asidePapa"
+                         "footerPapa footerPapa";
+    column-gap: 2%; /* espaciado entre columnas*/
+    row-gap: 2%; /* espaciado entre filas*/
+}
+
+.header{
+    text-align: center;
+    font-size: 3rem;
+    background-color: rgb(139, 184, 223);
+    border: 1px solid black;
+    grid-area: headerPapa;
+}
+
+.main{
+    text-align: center;
+    font-size: 3rem;
+    background-color: rgb(14, 252, 106);
+    border: 1px solid black;
+    grid-area: mainPapa;
+}
+
+.aside{
+    text-align: center;
+    font-size: 3rem;
+    background-color: rgb(63, 50, 146);
+    border: 1px solid black;
+    grid-area: asidePapa;
+}
+
+.footer{
+    text-align: center;
+    font-size: 3rem;
+    background-color: rgb(228, 251, 73);
+    border: 1px solid black;
+    grid-area: footerPapa;
+}

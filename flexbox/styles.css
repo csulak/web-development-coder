@@ -1,0 +1,159 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;400;500&family=Open+Sans:wght@300;400;600&family=Roboto:wght@100;300;900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    font-size: 62.5%;
+}
+
+body{
+font-family: 'Open Sans', sans-serif;
+}
+
+.header{
+    /*margin-left: 3rem;*/
+    /*margin-top: 1rem;*/
+    /*height: 10vh;*/
+    background-color: rgb(146, 125, 125);
+    width: 50%;
+    margin: 0 auto;
+}
+
+.inLineBlock{
+    display: inline-block; 
+}
+
+.tituloHeader{
+    font-size:7rem;
+    letter-spacing: 1rem;
+
+}
+
+.subTituloHeader{
+    font-size: 1rem;
+    text-align: right;
+    margin-top: -1.5rem;
+}
+
+
+.footer{
+    background-color: #34495e;
+    color: white;
+
+}
+
+.textoFooter{
+    padding: 2rem;
+}
+
+.addDebate{
+    display: inline-block;
+
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    text-align: center;
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    color:white;
+    text-decoration: none;
+    vertical-align: middle;
+    background-color: red;
+    padding-top: 0.5rem;
+
+}
+
+/* PRIMER CONTENEDOR FLEXBOX*/
+
+.primerContenedor{
+    display: flex;
+    /* justify-content: center; */
+    /* justify-content: space-around; */
+    /* justify-content: space-between; */
+    /* justify-content: flex-start; */
+    /* justify-content: flex-end; */
+    
+    align-items: center;  /* Con esta propiedad alineo los items verticalmente dentro de su propio espacio*/
+    /* flex-wrap: wrap; Si los elementos no caben en la pantalla en vez de ajustarse se van agrupando haciendo un sato de linea */
+}
+
+.soyLucas{
+    background-color: gray;
+    display: flex;
+    /* flex-direction: column; Esta propiedad hace que el texto "lucas csulak" quede una palabra arriba del a otra */ 
+}
+
+.imgLogo{
+    width: 500px;
+}
+
+.textito{
+    font-size: 50px;
+    background-color: red;
+}
+
+
+
+/* SEGUNDO CONTENEDOR FLEXBOX*/
+
+.segundoContenedor{
+    display: flex;
+    flex-direction: row;
+    /* height: 500px; */
+    background-color: red;
+    opacity: 0.5;
+    /* justify-content: space-between; */
+
+    /* align-items: center; */
+    font-size: 2rem;
+}
+
+.box1{
+    width: 100px;
+    height: 100px;
+    background-color: aquamarine;
+    opacity: 0.5;
+}
+
+.boxesContenedor2y3{
+    /* margin-left: 10px; */
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    height: 300px;
+    width: 300px;
+    justify-content:center;
+    /* align-items:end; */
+
+}
+
+
+.contenedorBox2{
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(182, 163, 135);
+}
+.box2{
+    width: 100px;
+    height: 100px;
+    background-color: bisque;
+    opacity: 0.5;
+}
+
+.contenedorBox3{
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    background-color: blueviolet;
+}
+
+
+.box3{
+    width: 100px;
+    height: 100px;
+    background-color: aqua;
+    opacity: 0.5;
+}
